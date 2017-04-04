@@ -1,0 +1,18 @@
+.brand{
+  font-weight: bold;
+}
+.type{
+  font-style: italic;
+}
+
+.not-connected{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.not-conected h1{
+  font-size: 3em;
+}

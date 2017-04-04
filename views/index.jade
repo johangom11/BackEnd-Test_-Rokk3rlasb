@@ -1,0 +1,19 @@
+extends layout
+
+block content  
+  nav.grey.darken-3
+    .nav-wrapper
+      .input-field
+          input#search(type='search', placeholder="Search Items", required='')
+          label.label-icon(for='search')
+            i.material-icons search            
+          i.material-icons close
+
+  #content.container.section
+    h5.light Results
+    p#notfound.grey-text.text-lighten-1 items not found
+    ul#results.collection    
+  #searchButton.fixed-action-btn
+    a.btn-floating.btn-large.green.waves-effect.waves-light
+      i.large.material-icons search
+    
